@@ -1,0 +1,197 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+
+hr{
+    border: 6px dotted #eaf6f6;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+    
+}
+
+p{
+    line-height: 2;
+}
+.topcontainer {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 120px;
+  color: #11999e;
+}
+
+.mountain {
+  margin-bottom: -5px;
+}
+
+.topcontainer h1 {
+  width: 31%;
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  /* line-height: 4/; */
+}
+.topcontainer h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  font-weight: normal;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 49px;
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+/* middle container */
+
+.profile{
+    margin-bottom: 45px;
+}
+.dotted{
+    font-size: 2.5rem;
+    color: #c4cdcd;
+    margin-bottom: 60px;
+}
+.profiledesc {
+  width: 33%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.profpic {
+  height: 157.9px;
+  width: 152.3px;
+  margin-top: 73px;
+  margin-bottom: 6px;
+}
+
+.bottomcloud {
+  left: 300px;
+  position: absolute;
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+/* SKILLS */
+
+.skill-row {
+  width: 50%;
+  margin: 60px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skillspic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border: none;
+}
+.skillspic1 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border: none;
+}
+
+/*  */
+.btn {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px auto 40px auto;
+  }
+  
+  .btn:hover {
+    background: #2bc4ad;
+    background-image: -webkit-linear-gradient(top, #2bc4ad, #27a38e);
+    background-image: -moz-linear-gradient(top, #2bc4ad, #27a38e);
+    background-image: -ms-linear-gradient(top, #2bc4ad, #27a38e);
+    background-image: -o-linear-gradient(top, #2bc4ad, #27a38e);
+    background-image: linear-gradient(to bottom, #2bc4ad, #27a38e);
+    text-decoration: none;
+  }
+  
+/* bottom container */
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    /* border: 2px solid black; */
+    background-color:#2bc4ad
+
+    ;
+}
+.footer-link{
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    color: #11999E;
+    text-decoration: none;
+    font-size: 19px;
+}
+a:hover{
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+    color: white;
+}
+.contact-messages{
+    width: 30%;
+    margin: 30px auto;
+    
+}
+/* animation */
+.giphy-embed {
+  height: 80px;
+  width: 60px;
+  position: absolute;
+  animation-name: birds;
+  animation-duration: 30s;
+  top: 250px;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes birds {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 95%;
+    visibility: collapse;
+  }
+}
